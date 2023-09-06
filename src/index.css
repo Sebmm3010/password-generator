@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(14, 14, 14);
+}
+
+.input-general{
+  @apply border-gray-400 border p-2;
+}
+.btn-primary{
+  @apply p-2 rounded-md bg-primary-red-200 text-light-2;
+}
